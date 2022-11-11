@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+}
+ body{
+    height: 1500px;
+    margin: 0;
+ }
+.header {
+    height: 70px;
+    background-color: white;
+    display: flex;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.left-section {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+a:hover{
+    color: rgb(93, 93, 197);
+}
+
+.main {
+    margin: 70px;
+    margin-left: 15px;
+    background-color:#eae8e5;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+}
+.intro {
+    margin-left: 369px;
+    padding: 67px;
+    display: flex;    
+}
+p{
+    font-size: 20px;
+
+}
+
+.para {
+    font-family: "Heron Sans Cond Bd", "Impact", "Arial Black", sans-serif;
+    color: #37343d;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700px;
+    font-weight: bold;
+    
+}
+
+.share {
+    display:flex;
+    width: 800px;
+    height: 50px;
+    margin-left: 440px;
+    justify-content:space-between;
+    font-family:  "Akkurat Std", "Helvetica Neue", "Helvetica", sans-serif;
+
+ 
+}
+
+.images {
+    margin-left: 30px;
+    vertical-align: top; 
+    display: flex;
+    font-family:  "Akkurat Std", "Helvetica Neue", "Helvetica", sans-serif;
+}
+.share-button {
+    width: 25px;
+    height: 25px;
+    border-radius: 33px;
+    margin-left: 3px;
+}
+
+
+.decimapic{
+    width:100%;  
+}
+
+.main-para {
+    
+    height: 500px;
+    margin-left: 300px;
+    margin-top: 50px;
+    line-height: 1.5;
+    font-family: "Akkurat Std", "Helvetica Neue", "Helvetica", sans-serif;
+
+
+}
+
+.p2,.p3 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-family:  "Akkurat Std", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+.p4 {
+    line-height: 2.5;
+}
+.share2 {
+    display: flex;
+    width: 900px;
+    margin-left: 400px;
+    margin-top: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.horizon { 
+    border: #37343d;
+    display: flex;
+}
+ .horizon-game:hover{
+    color: rgb(67, 253, 67);
+ }
+
+.footer {
+    height: 500px;
+    background-color:#eae8e5;
+    display: flex;
+    justify-content:space-around;
+
+    
+}
+
+.logo2 {
+display:inline;
+margin-left: 150px;
+margin-top: 50px;
+width: 100px;
+
+}
+
+.linkpages {
+display: flex;
+flex-direction: column;
+margin-left: 100px;
+margin-top: 50px;
+width: 100px;
+line-height: 1.5;
+}
+ .connect {
+    margin-top: 50px;
+    line-height: 1.5;
+
+ }
+.media {
+    width: 100px;
+}
+
+.info {
+    margin-top: 50px;
+}
