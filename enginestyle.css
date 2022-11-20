@@ -41,9 +41,10 @@ a:hover{
     margin: 70px;
     margin-left: 15px;
     background-color:#eae8e5;
-    width: 100%;
+    width: 98%;
     height: 300px;
     align-items: center;
+    margin: auto;
 }
 .intro {
     margin-left: 369px;
